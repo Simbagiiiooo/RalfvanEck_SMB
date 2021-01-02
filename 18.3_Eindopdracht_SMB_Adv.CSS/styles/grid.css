@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.social {
+  position: fixed;
+  top: 40%;
+  right: 0%;
+}
+
+.social__image {
+  margin-left: 13px;
+  margin-right: 24px;
+  font-size: 0.9rem;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+}
+
+.social__button {
+  background-color: #e17b77;
+  overflow: auto;
+  width: 200px;
+  padding: 5px 5px;
+  font-size: 0.7rem;
+  color: #fff;
+  margin-left: 77%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.social__button:hover {
+  margin-left: 0;
+}
+
+.social__content {
+  float: left;
+  text-decoration: underline;
+  padding-right: 0px;
+}
+
+.social__twitter {
+  background-color: #55acee;
+}
+
+.social__linkedin {
+  background-color: #007bb6;
+}
+
+.social__facebook {
+  background-color: #3b5998;
+}
+
+.social__github {
+  background-color: #333;
+}
+/*# sourceMappingURL=grid.css.map */
